@@ -1,1 +1,2 @@
 # trading-bot
+This personal project employs technologies and methodologies commonly used in algorithmic trading contexts, like websockets for streaming price data, postgreSQL-based high frequency databases like TimescaleDB, time series analysis, and containerization using Docker. Its main purpose was to allow me to familiarize myself with these technologies and how they can work together. Since this project is more a POC, it centers around one stock, "GOOG." 
