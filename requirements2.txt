@@ -1,0 +1,3 @@
+alpaca-py==0.20.3
+TimeScale
+psycopg2>=2.9.1

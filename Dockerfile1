@@ -1,0 +1,14 @@
+FROM python:3.9
+
+ENV TZ=America/New_York
+
+WORKDIR /websocket-image
+
+COPY . .
+
+RUN pip install -r requirements1.txt
+
+ENTRYPOINT ["/websocket-image/entrypoint1.sh"]
+
+
+

@@ -1,0 +1,4 @@
+websocket-client>=1.2.1
+TimeScale
+datetime
+psycopg2>=2.9.1

@@ -1,0 +1,17 @@
+FROM python:3.9
+
+ENV TZ=America/New_York
+
+WORKDIR /buysell-image
+
+COPY . .
+
+RUN pip install -r requirements2.txt
+
+ENTRYPOINT ["/buysell-image/entrypoint2.sh"]
+
+
+
+
+
+
